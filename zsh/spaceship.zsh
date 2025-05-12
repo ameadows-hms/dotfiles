@@ -1,6 +1,8 @@
 # No more "via " in front of prompts
 SPACESHIP_PROMPT_DEFAULT_PREFIX=" "
 
+SPACESHIP_PYTHON_SHOW="true"
+
 # No more "via " in front of node version
 SPACESHIP_NODE_PREFIX=" "
 

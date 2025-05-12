@@ -1,6 +1,6 @@
 [user]
 	name = Adam Meadows
-	email = adam.meadows@gmail.com
+	email = adam.meadows@healthmapsolutions.com
 
 [color]
     branch = auto
@@ -36,5 +36,6 @@
 
 [core]
     editor = vim
+	excludesFile = ~/.gitignore
 [init]
 	defaultBranch = main
