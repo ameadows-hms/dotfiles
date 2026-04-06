@@ -26,10 +26,6 @@ function go_to () {
         export JSON_TABS=4
         source .venv/bin/activate
     fi
-    if [ -e ".nvmrc" ]
-    then
-        nvm use
-    fi
 }
 
 autoload -U +X compinit && compinit
