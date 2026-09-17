@@ -12,3 +12,8 @@ alias bye='exit'
 
 # super helpful shortcut to execute previous command
 alias r='fc -s'
+
+# Notification with announcement
+notify() {
+    osascript -e "display notification \"$1\" with title \"Terminal\"" && say $1
+}
